@@ -26,7 +26,7 @@ macro(build_meevax)
   include(ExternalProject)
   externalproject_add(meevax-ext
     GIT_REPOSITORY https://github.com/yamacir-kit/meevax.git
-    GIT_TAG a584cda500e7f8457ac32d431103b8d51fe39d27
+    GIT_TAG 26162ad9e261990ea7274646699e82881091f65e
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
